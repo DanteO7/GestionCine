@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dante\\source\\repos\\GestionCine\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0459A26F-1BD1-494E-B3E3-D20C20B0F095}|GestionCine\\GestionCine.csproj|c:\\users\\dante\\source\\repos\\gestioncine\\gestioncine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0459A26F-1BD1-494E-B3E3-D20C20B0F095}|GestionCine\\GestionCine.csproj|solutionrelative:gestioncine\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0459A26F-1BD1-494E-B3E3-D20C20B0F095}|GestionCine\\GestionCine.csproj|c:\\users\\dante\\source\\repos\\gestioncine\\gestioncine\\modelos\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0459A26F-1BD1-494E-B3E3-D20C20B0F095}|GestionCine\\GestionCine.csproj|solutionrelative:gestioncine\\modelos\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0459A26F-1BD1-494E-B3E3-D20C20B0F095}|GestionCine\\GestionCine.csproj|c:\\users\\dante\\source\\repos\\gestioncine\\gestioncine\\modelos\\cine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0459A26F-1BD1-494E-B3E3-D20C20B0F095}|GestionCine\\GestionCine.csproj|solutionrelative:gestioncine\\modelos\\cine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0459A26F-1BD1-494E-B3E3-D20C20B0F095}|GestionCine\\GestionCine.csproj|c:\\users\\dante\\source\\repos\\gestioncine\\gestioncine\\modelos\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0459A26F-1BD1-494E-B3E3-D20C20B0F095}|GestionCine\\GestionCine.csproj|solutionrelative:gestioncine\\modelos\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0459A26F-1BD1-494E-B3E3-D20C20B0F095}|GestionCine\\GestionCine.csproj|c:\\users\\dante\\source\\repos\\gestioncine\\gestioncine\\modelos\\asiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0459A26F-1BD1-494E-B3E3-D20C20B0F095}|GestionCine\\GestionCine.csproj|solutionrelative:gestioncine\\modelos\\asiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0459A26F-1BD1-494E-B3E3-D20C20B0F095}|GestionCine\\GestionCine.csproj|c:\\users\\dante\\source\\repos\\gestioncine\\gestioncine\\modelos\\entrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0459A26F-1BD1-494E-B3E3-D20C20B0F095}|GestionCine\\GestionCine.csproj|solutionrelative:gestioncine\\modelos\\entrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cine.cs",
+              "DocumentMoniker": "C:\\Users\\Dante\\source\\repos\\GestionCine\\GestionCine\\Modelos\\Cine.cs",
+              "RelativeDocumentMoniker": "GestionCine\\Modelos\\Cine.cs",
+              "ToolTip": "C:\\Users\\Dante\\source\\repos\\GestionCine\\GestionCine\\Modelos\\Cine.cs",
+              "RelativeToolTip": "GestionCine\\Modelos\\Cine.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAuwFgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T00:08:43.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sala.cs",
+              "DocumentMoniker": "C:\\Users\\Dante\\source\\repos\\GestionCine\\GestionCine\\Modelos\\Sala.cs",
+              "RelativeDocumentMoniker": "GestionCine\\Modelos\\Sala.cs",
+              "ToolTip": "C:\\Users\\Dante\\source\\repos\\GestionCine\\GestionCine\\Modelos\\Sala.cs",
+              "RelativeToolTip": "GestionCine\\Modelos\\Sala.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T00:08:44.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pelicula.cs",
+              "DocumentMoniker": "C:\\Users\\Dante\\source\\repos\\GestionCine\\GestionCine\\Modelos\\Pelicula.cs",
+              "RelativeDocumentMoniker": "GestionCine\\Modelos\\Pelicula.cs",
+              "ToolTip": "C:\\Users\\Dante\\source\\repos\\GestionCine\\GestionCine\\Modelos\\Pelicula.cs",
+              "RelativeToolTip": "GestionCine\\Modelos\\Pelicula.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T00:08:41.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Asiento.cs",
+              "DocumentMoniker": "C:\\Users\\Dante\\source\\repos\\GestionCine\\GestionCine\\Modelos\\Asiento.cs",
+              "RelativeDocumentMoniker": "GestionCine\\Modelos\\Asiento.cs",
+              "ToolTip": "C:\\Users\\Dante\\source\\repos\\GestionCine\\GestionCine\\Modelos\\Asiento.cs",
+              "RelativeToolTip": "GestionCine\\Modelos\\Asiento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T23:57:39.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Entrada.cs",
+              "DocumentMoniker": "C:\\Users\\Dante\\source\\repos\\GestionCine\\GestionCine\\Modelos\\Entrada.cs",
+              "RelativeDocumentMoniker": "GestionCine\\Modelos\\Entrada.cs",
+              "ToolTip": "C:\\Users\\Dante\\source\\repos\\GestionCine\\GestionCine\\Modelos\\Entrada.cs",
+              "RelativeToolTip": "GestionCine\\Modelos\\Entrada.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T23:56:03.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dante\\source\\repos\\GestionCine\\GestionCine\\Program.cs",
+              "RelativeDocumentMoniker": "GestionCine\\Program.cs",
+              "ToolTip": "C:\\Users\\Dante\\source\\repos\\GestionCine\\GestionCine\\Program.cs",
+              "RelativeToolTip": "GestionCine\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAANsBAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T21:09:39.611Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

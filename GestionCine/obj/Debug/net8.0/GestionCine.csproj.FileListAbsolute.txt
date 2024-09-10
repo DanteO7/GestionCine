@@ -1,0 +1,15 @@
+C:\Users\Dante\source\repos\GestionCine\GestionCine\bin\Debug\net8.0\GestionCine.exe
+C:\Users\Dante\source\repos\GestionCine\GestionCine\bin\Debug\net8.0\GestionCine.deps.json
+C:\Users\Dante\source\repos\GestionCine\GestionCine\bin\Debug\net8.0\GestionCine.runtimeconfig.json
+C:\Users\Dante\source\repos\GestionCine\GestionCine\bin\Debug\net8.0\GestionCine.dll
+C:\Users\Dante\source\repos\GestionCine\GestionCine\bin\Debug\net8.0\GestionCine.pdb
+C:\Users\Dante\source\repos\GestionCine\GestionCine\obj\Debug\net8.0\GestionCine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dante\source\repos\GestionCine\GestionCine\obj\Debug\net8.0\GestionCine.AssemblyInfoInputs.cache
+C:\Users\Dante\source\repos\GestionCine\GestionCine\obj\Debug\net8.0\GestionCine.AssemblyInfo.cs
+C:\Users\Dante\source\repos\GestionCine\GestionCine\obj\Debug\net8.0\GestionCine.csproj.CoreCompileInputs.cache
+C:\Users\Dante\source\repos\GestionCine\GestionCine\obj\Debug\net8.0\GestionCine.sourcelink.json
+C:\Users\Dante\source\repos\GestionCine\GestionCine\obj\Debug\net8.0\GestionCine.dll
+C:\Users\Dante\source\repos\GestionCine\GestionCine\obj\Debug\net8.0\refint\GestionCine.dll
+C:\Users\Dante\source\repos\GestionCine\GestionCine\obj\Debug\net8.0\GestionCine.pdb
+C:\Users\Dante\source\repos\GestionCine\GestionCine\obj\Debug\net8.0\GestionCine.genruntimeconfig.cache
+C:\Users\Dante\source\repos\GestionCine\GestionCine\obj\Debug\net8.0\ref\GestionCine.dll
