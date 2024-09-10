@@ -34,27 +34,3 @@ namespace GestionCine.Modelos
         }   
     }
 }
-
-
-//public void MostrarDetallesMembresia()
-//{
-//    Console.WriteLine("Detalles de la Membresia:");
-//    Console.WriteLine($"Nombre: {Nombre}");
-//    Console.WriteLine($"Membresia: {Membresia}");
-//    Console.WriteLine($"Acceso a Piscina: {(AccesoPiscina ? "Si" : "No")}");
-//    Console.WriteLine($"Acceso a Spa: {(AccesoSpa ? "Si" : "No")}");
-//    Console.WriteLine($"Clases Grupales: {(ClasesGrupales ? "Si" : "No")}");
-//    Console.WriteLine($"Costo Base Membresia: {CostoBaseMembresia:C}\n");
-
-//    Console.WriteLine("- Clases Adicionales:\n");
-//    foreach (var clase in ClasesAdicionales)
-//    {
-//        Console.WriteLine($" ° Nombre Clase: {clase.NombreClase}");
-//        Console.WriteLine($" ° Costo Clase: {clase.CostoClase:C}");
-//        Console.WriteLine($" ° Descuento aplicado: {DescuentoEnClases * 100}%\n");
-//    }
-//    Console.WriteLine($"Costo Total Clases adicionales: {CostoTotalClases:C}\n");
-
-//    Console.WriteLine($"Costo Total Membresia + Clases: {CostoTotal:C}");
-//    Console.WriteLine("-------------------------------------------\n");
-//}
