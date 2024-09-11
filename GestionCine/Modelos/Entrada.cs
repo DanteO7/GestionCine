@@ -13,18 +13,7 @@ namespace GestionCine.Modelos
         public Cine Cine => _cine;
         public Pelicula Pelicula => _pelicula;
         public Asiento Asiento => _asiento;
-        public double Precio
-        {
-            get
-            {
-                double precioBase = 10;
-                if(Asiento.Tipo == TipoAsiento.Superseat)
-                {
-                    precioBase += 4;
-                }
-                return precioBase;
-            }
-        }
+        public double Precio => _precio;
         public DateTime Fecha => _fecha;
 
         public Entrada(Cine cine, Pelicula pelicula, Asiento asiento, DateTime fecha)
@@ -33,6 +22,24 @@ namespace GestionCine.Modelos
             _pelicula = pelicula;
             _fecha = fecha;
             _asiento = asiento;
+        }
+
+        public double CalcularPrecio(TipoAsiento tipoAsiento)
+        {
+            double precioBase = 10;
+
+            switch (tipoAsiento)
+            {
+                case TipoAsiento.Estandar:
+                    _precio = precioBase;
+                    return _precio;
+
+                case TipoAsiento.Superseat:
+                    _precio = precioBase + 4;
+                    return _precio;
+                default:
+                    throw new ArgumentException("El asiento no tiene tipo");
+            }
         }
     }
 }
