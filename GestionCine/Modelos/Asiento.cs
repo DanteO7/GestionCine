@@ -12,12 +12,11 @@ namespace GestionCine.Modelos
         public int Numero => _numero;
         public TipoAsiento Tipo => _tipo;
         public bool Ocupado => _ocupado;
-        public Asiento(char letra, int numero, TipoAsiento tipo, bool ocupado)
+        public Asiento(char letra, int numero, TipoAsiento tipo)
         {
             _letra = letra;
             _numero = numero;
             _tipo = tipo;
-            _ocupado = ocupado;
         }
         public void CambiarOcupado()
         {

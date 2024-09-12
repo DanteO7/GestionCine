@@ -86,8 +86,8 @@
             Console.WriteLine($"{++contador} - Volver\n");
         }
 
-        // creo el metodo DefinirPelicula porque cuando quiero sacar una entrada necesito saber en que sala va a estar la pelicula que saqué la entrada, y antes la pelicula
-        // solo se instanciaba con el método ReproducirPelicula donde la pelicula ya se reproducia
+        // creo el metodo DefinirPelicula, donde puedo pasar la pelicula, los horarios o ambas porque cuando quiero sacar una entrada necesito saber en que sala va a estar la pelicula que saqué
+        // la entrada, y antes la pelicula solo se instanciaba con el método ReproducirPelicula donde la pelicula ya se reproducia
         public void DefinirDetallesPelicula(Pelicula pelicula)
         {
             _pelicula = pelicula;

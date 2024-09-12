@@ -17,19 +17,13 @@ namespace GestionCine.Modelos
             Console.WriteLine("Detalles de la Entrada:\n");
             Console.WriteLine($"Cine: {entrada.Cine.Nombre}");
             entrada.Pelicula.MostrarDetalles();
-            foreach(var sala in entrada.Cine.Salas)
-            {
-                if(sala.Pelicula == entrada.Pelicula)
-                {
-                    Console.WriteLine($"Sala: {sala.Numero}");
-                    Console.WriteLine($"Fecha de la funcion: {sala.HorarioInicio.ToShortDateString()}");
-                    Console.WriteLine($"Horario de la funcion: desde {sala.HorarioInicio.ToShortTimeString()}hs hasta {sala.HorarioFin.ToShortTimeString()}hs");
-                }
-            }
+            Console.WriteLine($"Sala: {entrada.Sala.Numero}");
+            Console.WriteLine($"Fecha de la funcion: {entrada.Sala.HorarioInicio.ToShortDateString()}");
+            Console.WriteLine($"Horario de la funcion: desde {entrada.Sala.HorarioInicio.ToShortTimeString()}hs hasta {entrada.Sala.HorarioFin.ToShortTimeString()}hs");
             Console.WriteLine($"Asiento: {entrada.Asiento.Letra}-{entrada.Asiento.Numero}, tipo {entrada.Asiento.Tipo}\n");
             Console.WriteLine($"Cliente: {Nombre}");
             Console.WriteLine($"Fecha de compra: {entrada.Fecha}");
-            Console.WriteLine($"Precio: {entrada.CalcularPrecio(entrada.Asiento.Tipo):C} ");
+            Console.WriteLine($"Precio: {entrada.Precio:C} ");
             Console.WriteLine("-------------------------------------------------\n");
         }   
     }

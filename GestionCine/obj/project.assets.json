@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dante\\source\\repos\\GestionCine\\GestionCine\\GestionCine.csproj",
+      "projectUniqueName": "C:\\Users\\Dante\\source\\GestionCine\\GestionCine\\GestionCine.csproj",
       "projectName": "GestionCine",
-      "projectPath": "C:\\Users\\Dante\\source\\repos\\GestionCine\\GestionCine\\GestionCine.csproj",
+      "projectPath": "C:\\Users\\Dante\\source\\GestionCine\\GestionCine\\GestionCine.csproj",
       "packagesPath": "C:\\Users\\Dante\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dante\\source\\repos\\GestionCine\\GestionCine\\obj\\",
+      "outputPath": "C:\\Users\\Dante\\source\\GestionCine\\GestionCine\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dante\\AppData\\Roaming\\NuGet\\NuGet.Config",

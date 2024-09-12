@@ -7,19 +7,19 @@ namespace GestionCine
     {
         public static void Main()
         {
-            Asiento asiento1_1 = new Asiento('A', 1, TipoAsiento.Estandar, false);
-            Asiento asiento1_2 = new Asiento('A', 2, TipoAsiento.Estandar, true);
-            Asiento asiento1_3 = new Asiento('B', 1, TipoAsiento.Estandar, false);
-            Asiento asiento1_4 = new Asiento('B', 2, TipoAsiento.Estandar, false);
-            Asiento asiento1_5 = new Asiento('C', 1, TipoAsiento.Superseat, false);
-            Asiento asiento1_6 = new Asiento('C', 2, TipoAsiento.Superseat, false);
+            Asiento asiento1_1 = new Asiento('A', 1, TipoAsiento.Estandar);
+            Asiento asiento1_2 = new Asiento('A', 2, TipoAsiento.Estandar);
+            Asiento asiento1_3 = new Asiento('B', 1, TipoAsiento.Estandar);
+            Asiento asiento1_4 = new Asiento('B', 2, TipoAsiento.Estandar);
+            Asiento asiento1_5 = new Asiento('C', 1, TipoAsiento.Superseat);
+            Asiento asiento1_6 = new Asiento('C', 2, TipoAsiento.Superseat);
 
-            Asiento asiento2_1 = new Asiento('A', 1, TipoAsiento.Estandar, true);
-            Asiento asiento2_2 = new Asiento('A', 2, TipoAsiento.Estandar, true);
-            Asiento asiento2_3 = new Asiento('B', 1, TipoAsiento.Estandar, false);
-            Asiento asiento2_4 = new Asiento('B', 2, TipoAsiento.Estandar, false);
-            Asiento asiento2_5 = new Asiento('C', 1, TipoAsiento.Superseat, false);
-            Asiento asiento2_6 = new Asiento('C', 2, TipoAsiento.Superseat, false);
+            Asiento asiento2_1 = new Asiento('A', 1, TipoAsiento.Estandar);
+            Asiento asiento2_2 = new Asiento('A', 2, TipoAsiento.Estandar);
+            Asiento asiento2_3 = new Asiento('B', 1, TipoAsiento.Estandar);
+            Asiento asiento2_4 = new Asiento('B', 2, TipoAsiento.Estandar);
+            Asiento asiento2_5 = new Asiento('C', 1, TipoAsiento.Superseat);
+            Asiento asiento2_6 = new Asiento('C', 2, TipoAsiento.Superseat);
 
             List<Asiento> listaAsientosEstandar = new List<Asiento>();
             List<Asiento> listaAsientosSuper1 = new List<Asiento>();
@@ -47,7 +47,8 @@ namespace GestionCine
 
             Cine cine = new Cine("Cine Feliz", salita1);
             cine.AgregarSala(salita2);
-            cine.ActualizarCartelera();
+            cine.AgregarPelicula(pelicula1);
+            cine.AgregarPelicula(pelicula2);
 
             string nombreCliente;
             while (true)
@@ -64,8 +65,6 @@ namespace GestionCine
                 }
             }
             Cliente cliente = new Cliente(nombreCliente);
-            
-                              // IMPORTANTE LEER:  ya se que esto se DEBE HACER con FUNCIONES pero no pude hacerlo, disculpen el horroroso codigo que van a ver a continuacion //
 
             Console.WriteLine($"Hola {cliente.Nombre}. Seleccione la accion que desea realizar");
             Console.WriteLine("1 - Ver Cartelera del Cine");
@@ -126,8 +125,7 @@ namespace GestionCine
                                                         switch(confirmacionUsuario)
                                                         {
                                                             case 1:
-                                                                Entrada entradita = new Entrada(cine, pelicula1, asiento1_1, DateTime.Now);
-                                                                entradita.CalcularPrecio(asiento1_1.Tipo);
+                                                                Entrada entradita = new Entrada(cine, salita1, pelicula1, asiento1_1, DateTime.Now);
                                                                 cliente.SacarEntrada(entradita);
                                                                 banderaWhile = false;
                                                                 banderaSalir = false;
@@ -170,8 +168,7 @@ namespace GestionCine
                                                         switch (confirmacionUsuario)
                                                         {
                                                             case 1:
-                                                                Entrada entradita = new Entrada(cine, pelicula1, asiento1_2, DateTime.Now);
-                                                                entradita.CalcularPrecio(asiento1_2.Tipo);
+                                                                Entrada entradita = new Entrada(cine, salita1, pelicula1, asiento1_2, DateTime.Now);
                                                                 cliente.SacarEntrada(entradita); 
                                                                 banderaWhile = false;
                                                                 banderaSalir = false;
@@ -214,8 +211,7 @@ namespace GestionCine
                                                         switch (confirmacionUsuario)
                                                         {
                                                             case 1:
-                                                                Entrada entradita = new Entrada(cine, pelicula1, asiento1_3, DateTime.Now);
-                                                                entradita.CalcularPrecio(asiento1_3.Tipo);
+                                                                Entrada entradita = new Entrada(cine, salita1, pelicula1, asiento1_3, DateTime.Now);
                                                                 cliente.SacarEntrada(entradita); 
                                                                 banderaWhile = false;
                                                                 banderaSalir = false;
@@ -258,8 +254,7 @@ namespace GestionCine
                                                         switch (confirmacionUsuario)
                                                         {
                                                             case 1:
-                                                                Entrada entradita = new Entrada(cine, pelicula1, asiento1_4, DateTime.Now);
-                                                                entradita.CalcularPrecio(asiento1_4.Tipo);
+                                                                Entrada entradita = new Entrada(cine, salita1, pelicula1, asiento1_4, DateTime.Now);
                                                                 cliente.SacarEntrada(entradita); 
                                                                 banderaWhile = false;
                                                                 banderaSalir = false;
@@ -302,8 +297,7 @@ namespace GestionCine
                                                         switch (confirmacionUsuario)
                                                         {
                                                             case 1:
-                                                                Entrada entradita = new Entrada(cine, pelicula1, asiento1_5, DateTime.Now);
-                                                                entradita.CalcularPrecio(asiento1_5.Tipo);
+                                                                Entrada entradita = new Entrada(cine, salita1, pelicula1, asiento1_5, DateTime.Now);
                                                                 cliente.SacarEntrada(entradita);
                                                                 banderaWhile = false;
                                                                 banderaSalir = false;
@@ -346,8 +340,7 @@ namespace GestionCine
                                                         switch (confirmacionUsuario)
                                                         {
                                                             case 1:
-                                                                Entrada entradita = new Entrada(cine, pelicula1, asiento1_6, DateTime.Now);
-                                                                entradita.CalcularPrecio(asiento1_6.Tipo);
+                                                                Entrada entradita = new Entrada(cine, salita1, pelicula1, asiento1_6, DateTime.Now);
                                                                 cliente.SacarEntrada(entradita);
                                                                 banderaWhile = false;
                                                                 banderaSalir = false;
@@ -414,8 +407,7 @@ namespace GestionCine
                                                         switch (confirmacionUsuario)
                                                         {
                                                             case 1:
-                                                                Entrada entradita = new Entrada(cine, pelicula2, asiento2_1, DateTime.Now);
-                                                                entradita.CalcularPrecio(asiento2_1.Tipo);
+                                                                Entrada entradita = new Entrada(cine, salita2, pelicula2, asiento2_1, DateTime.Now);
                                                                 cliente.SacarEntrada(entradita);
                                                                 banderaWhile = false;
                                                                 banderaSalir = false;
@@ -458,8 +450,7 @@ namespace GestionCine
                                                         switch (confirmacionUsuario)
                                                         {
                                                             case 1:
-                                                                Entrada entradita = new Entrada(cine, pelicula2, asiento2_2, DateTime.Now);
-                                                                entradita.CalcularPrecio(asiento2_2.Tipo);
+                                                                Entrada entradita = new Entrada(cine, salita2, pelicula2, asiento2_2, DateTime.Now);
                                                                 cliente.SacarEntrada(entradita); 
                                                                 banderaWhile = false;
                                                                 banderaSalir = false;
@@ -502,8 +493,7 @@ namespace GestionCine
                                                         switch (confirmacionUsuario)
                                                         {
                                                             case 1:
-                                                                Entrada entradita = new Entrada(cine, pelicula2, asiento2_3, DateTime.Now);
-                                                                entradita.CalcularPrecio(asiento2_3.Tipo);
+                                                                Entrada entradita = new Entrada(cine, salita2, pelicula2, asiento2_3, DateTime.Now);
                                                                 cliente.SacarEntrada(entradita); 
                                                                 banderaWhile = false;
                                                                 banderaSalir = false;
@@ -546,8 +536,7 @@ namespace GestionCine
                                                         switch (confirmacionUsuario)
                                                         {
                                                             case 1:
-                                                                Entrada entradita = new Entrada(cine, pelicula2, asiento2_4, DateTime.Now);
-                                                                entradita.CalcularPrecio(asiento2_4.Tipo);
+                                                                Entrada entradita = new Entrada(cine, salita2, pelicula2, asiento2_4, DateTime.Now);
                                                                 cliente.SacarEntrada(entradita); 
                                                                 banderaWhile = false;
                                                                 banderaSalir = false;
@@ -590,8 +579,7 @@ namespace GestionCine
                                                         switch (confirmacionUsuario)
                                                         {
                                                             case 1:
-                                                                Entrada entradita = new Entrada(cine, pelicula2, asiento2_5, DateTime.Now);
-                                                                entradita.CalcularPrecio(asiento2_5.Tipo);
+                                                                Entrada entradita = new Entrada(cine, salita2, pelicula2, asiento2_5, DateTime.Now);
                                                                 cliente.SacarEntrada(entradita); 
                                                                 banderaWhile = false;
                                                                 banderaSalir = false;
@@ -634,8 +622,7 @@ namespace GestionCine
                                                         switch (confirmacionUsuario)
                                                         {
                                                             case 1:
-                                                                Entrada entradita = new Entrada(cine, pelicula2, asiento2_6, DateTime.Now);
-                                                                entradita.CalcularPrecio(asiento2_6.Tipo);
+                                                                Entrada entradita = new Entrada(cine, salita2, pelicula2, asiento2_6, DateTime.Now);
                                                                 cliente.SacarEntrada(entradita); 
                                                                 banderaWhile = false;
                                                                 banderaSalir = false;
@@ -713,7 +700,6 @@ namespace GestionCine
                 {
                     Console.WriteLine("Saliendo del Programa...");
                 }
-                             // IMPORTANTE LEER:  ya se que esto se DEBE HACER con FUNCIONES pero no pude hacerlo, disculpen el horroroso codigo que vieron //
             }
         }
     }

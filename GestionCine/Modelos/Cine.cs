@@ -12,6 +12,10 @@ namespace GestionCine.Modelos
         public List<Sala> Salas => _salas;
         public List<Pelicula> Cartelera => _cartelera;
 
+        public Cine(string nombre)
+        {
+            _nombre = nombre;
+        }
         public Cine(string nombre, List<Sala> salas, List<Pelicula> cartelera)
         {
             _nombre = nombre;
@@ -68,14 +72,15 @@ namespace GestionCine.Modelos
             _salas.AddRange(salas);
         }
 
-        public void ActualizarCartelera()
+        public void AgregarPelicula(Pelicula pelicula)
         {
-            foreach(var sala in _salas)
-            {
-                _cartelera.Add(sala.Pelicula);
-            }
+            _cartelera.Add(pelicula);
         }
-        
+        public void SacarPelicula(Pelicula pelicula)
+        {
+            _cartelera.Remove(pelicula);
+        }
+
         public void MostrarCartelera()
         {
             foreach(var pelicula in _cartelera)
@@ -97,7 +102,6 @@ namespace GestionCine.Modelos
                 {
                     Console.WriteLine($"{tipoAsiento}: $14.00\n");
                 }
-                
             }
         }
     }

@@ -8,7 +8,7 @@ namespace GestionCine.Modelos
         private string _genero;
         private int _duracionMin;
         private Formato? _formato;
-        // uso Formato? porque en Sala.cs le doy a pelicula un valor por defecto y con el ? en Formato? puedo darle un formato nulo hasta que sea definido
+        // uso Formato? porque en Sala.cs le doy a pelicula un valor por defecto y con Formato? puedo darle un formato nulo hasta que sea definido
         public string Nombre => _nombre;
         public string Genero => _genero;
         public int DuracionMin => _duracionMin;
